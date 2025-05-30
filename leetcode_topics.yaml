@@ -1,0 +1,133 @@
+leetcode:
+  arrays:
+    1_d:
+      sliding_window: null
+      two_pointers: null
+      prefix_sum: null
+      bit_manipulation: null
+    2_d: null
+    grid: null
+    prefix_sum: null
+    dynamic_programming: null
+  pointers:
+    1_d:
+      linked_list:
+        cycle_detection: null
+        merge_nodes: null
+        reverse_nodes: null
+      stack:
+        monotonic_stack: null
+        expression_evaluation: null
+      queue: null
+      sliding_window: null
+      circular_queue: null
+    2_d: null
+    matrix_pointer: null
+    traversal: null
+  trees:
+    binary_tree:
+      traversal: null
+      dfs: null
+      bfs: null
+      diameter: null
+    binary_search_tree:
+      insert_delete: null
+      validate: null
+    trie: null
+    segment_tree: null
+  graphs:
+    dfs: null
+    bfs: null
+    dijkstra: null
+    bellman_ford: null
+    floyd_warshall: null
+    union_find: null
+    topological_sort: null
+    minimum_spanning_tree: null
+  heap:
+    min_heap: null
+    max_heap: null
+    priority_queue: null
+  recursion:
+    backtracking: null
+    n_queens: null
+    subset_generation: null
+    permutations: null
+  dynamic_programming:
+    1d:
+      house_robber: null
+      fibonacci: null
+      climbing_stairs: null
+    2d:
+      knapsack: null
+      lcs: null
+    optimization: null
+    memoization: null
+    tabulation: null
+  binary_search:
+    rotated_array: null
+    lower_bound: null
+    upper_bound: null
+  math:
+    number_theory:
+      gcd_lcm: null
+      prime_sieve: null
+      modular_arithmetic: null
+    combinatorics: null
+    pascal_triangle: null
+    catalan_numbers: null
+  strings:
+    pattern_matching:
+      rabin_karp: null
+      kmp: null
+      z_algorithm: null
+    sliding_window: null
+    anagram: null
+    palindrome: null
+  bitwise:
+    xor_tricks: null
+    subsets: null
+    bitmask_dp: null
+  system_design:
+    caching: null
+    load_balancing: null
+    consistent_hashing: null
+    rate_limiting: null
+  concurrency:
+    mutex: null
+    semaphores: null
+    barriers: null
+    producer_consumer: null
+  databases:
+    sql:
+      joins: null
+      group_by: null
+      window_functions: null
+    nosql: null
+  ood:
+    lru_cache: null
+    parking_lot: null
+    rate_limiter: null
+  sliding_window: null
+  two_pointers: null
+  intervals:
+    merge_intervals: null
+    meeting_rooms: null
+    sweep_line: null
+  greedy:
+    interval_scheduling: null
+    coin_change: null
+  top_k:
+    kth_largest: null
+    heap_select: null
+  union_find:
+    connected_components: null
+    cycle_detection: null
+  monotonic_structures:
+    monotonic_stack: null
+    monotonic_queue: null
+  design:
+    hashmap: null
+    min_stack: null
+    twitter: null
+    logger_rate_limiter: null

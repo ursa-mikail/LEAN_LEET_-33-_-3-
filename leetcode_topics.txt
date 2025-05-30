@@ -1,0 +1,134 @@
+leetcode
+├── arrays
+│   ├── 1_d
+│   │   ├── sliding_window
+│   │   ├── two_pointers
+│   │   ├── prefix_sum
+│   │   └── bit_manipulation
+│   └── 2_d
+│       ├── grid
+│       ├── prefix_sum
+│       └── dynamic_programming
+├── pointers
+│   ├── 1_d
+│   │   ├── linked_list
+│   │   │   ├── cycle_detection
+│   │   │   ├── merge_nodes
+│   │   │   └── reverse_nodes
+│   │   ├── stack
+│   │   │   ├── monotonic_stack
+│   │   │   └── expression_evaluation
+│   │   └── queue
+│   │       ├── sliding_window
+│   │       └── circular_queue
+│   └── 2_d
+│       ├── matrix_pointer
+│       └── traversal
+├── trees
+│   ├── binary_tree
+│   │   ├── traversal
+│   │   ├── dfs
+│   │   ├── bfs
+│   │   └── diameter
+│   ├── binary_search_tree
+│   │   ├── insert_delete
+│   │   └── validate
+│   ├── trie
+│   └── segment_tree
+├── graphs
+│   ├── dfs
+│   ├── bfs
+│   ├── dijkstra
+│   ├── bellman_ford
+│   ├── floyd_warshall
+│   ├── union_find
+│   ├── topological_sort
+│   └── minimum_spanning_tree
+├── heap
+│   ├── min_heap
+│   ├── max_heap
+│   └── priority_queue
+├── recursion
+│   ├── backtracking
+│   ├── n_queens
+│   ├── subset_generation
+│   └── permutations
+├── dynamic_programming
+│   ├── 1d
+│   │   ├── house_robber
+│   │   ├── fibonacci
+│   │   └── climbing_stairs
+│   ├── 2d
+│   │   ├── knapsack
+│   │   └── lcs
+│   └── optimization
+│       ├── memoization
+│       └── tabulation
+├── binary_search
+│   ├── rotated_array
+│   ├── lower_bound
+│   └── upper_bound
+├── math
+│   ├── number_theory
+│   │   ├── gcd_lcm
+│   │   ├── prime_sieve
+│   │   └── modular_arithmetic
+│   └── combinatorics
+│       ├── pascal_triangle
+│       └── catalan_numbers
+├── strings
+│   ├── pattern_matching
+│   │   ├── rabin_karp
+│   │   ├── kmp
+│   │   └── z_algorithm
+│   ├── sliding_window
+│   ├── anagram
+│   └── palindrome
+├── bitwise
+│   ├── xor_tricks
+│   ├── subsets
+│   └── bitmask_dp
+├── system_design
+│   ├── caching
+│   ├── load_balancing
+│   ├── consistent_hashing
+│   └── rate_limiting
+├── concurrency
+│   ├── mutex
+│   ├── semaphores
+│   ├── barriers
+│   └── producer_consumer
+├── databases
+│   ├── sql
+│   │   ├── joins
+│   │   ├── group_by
+│   │   └── window_functions
+│   └── nosql
+├── ood
+│   ├── lru_cache
+│   ├── parking_lot
+│   └── rate_limiter
+├── sliding_window
+├── two_pointers
+├── intervals
+│   ├── merge_intervals
+│   ├── meeting_rooms
+│   └── sweep_line
+├── greedy
+│   ├── interval_scheduling
+│   └── coin_change
+├── top_k
+│   ├── kth_largest
+│   └── heap_select
+├── union_find
+│   ├── connected_components
+│   └── cycle_detection
+├── monotonic_structures
+│   ├── monotonic_stack
+│   └── monotonic_queue
+├── design
+│   ├── hashmap
+│   ├── min_stack
+│   ├── twitter
+│   └── logger_rate_limiter
+
