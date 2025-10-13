@@ -5,7 +5,6 @@ def two_sum_sorted(nums, target):
     
     Example: nums = [2, 7, 11, 15], target = 9 → [1, 2]
     """
-    # Your code here
     left, right = 0, len(nums) - 1
     while left < right:
         current_sum = nums[left] + nums[right]
