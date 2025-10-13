@@ -21,8 +21,10 @@ print(two_sum_sorted([2, 7, 11, 15], 9))  # [1, 2]
 print(two_sum_sorted([2, 3, 4], 6))       # [1, 3]
 print(two_sum_sorted([-1, 0], -1))        # [1, 2]
 
+print(two_sum_sorted([0, 2, 7, 11, 15], 9)) # [2, 3]
 """
 [1, 2]
 [1, 3]
 [1, 2]
+[2, 3]
 """
