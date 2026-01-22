@@ -1,3 +1,9 @@
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 def right_side_view(root):
     """
     Return the values of nodes you can see from the right side (top to bottom).
@@ -37,6 +43,37 @@ def right_side_view(root):
     return result
 
 # Alternative BFS approach
+"""
+Tree:
+    1      ← Level 0
+   / \
+  2   3    ← Level 1  
+   \   \
+    5   4  ← Level 2
+
+Step-by-Step Execution:
+
+Level 0:
+queue = [1], level_size = 1
+Process node 1: i = 0, level_size - 1 = 0 → i == level_size - 1 ✅
+Add 1 to result: result = [1]
+Add children: queue = [2, 3]
+
+Level 1:
+queue = [2, 3], level_size = 2
+Process node 2: i = 0, level_size - 1 = 1 → 0 == 1? ❌ (not last)
+Process node 3: i = 1, level_size - 1 = 1 → 1 == 1? ✅ LAST NODE!
+Add 3 to result: result = [1, 3]
+Add children: queue = [5, 4]
+
+Level 2:
+queue = [5, 4], level_size = 2
+Process node 5: i = 0, level_size - 1 = 1 → 0 == 1? ❌ (not last)
+Process node 4: i = 1, level_size - 1 = 1 → 1 == 1? ✅ LAST NODE!
+Add 4 to result: result = [1, 3, 4]
+
+Final: [1, 3, 4] ✅
+"""
 def right_side_view_bfs(root):
     """BFS approach for right side view"""
     if not root:
@@ -50,13 +87,16 @@ def right_side_view_bfs(root):
         level_size = len(queue)
         for i in range(level_size):
             node = queue.popleft()
-            # If it's the last node in this level, add to result
+
+            # KEY LINE: If this is the LAST node in current level, add to result
+            # Because in BFS, nodes are added left-to-right, so the 
+            # last node in each level is the rightmost one!
             if i == level_size - 1:
                 result.append(node.val)
             
             if node.left:
                 queue.append(node.left)
-                
+
             if node.right:
                 queue.append(node.right)
     
@@ -86,7 +126,6 @@ print(f"Tree 2: {right_side_view_bfs(root2)}")  # [1, 3, 5]
 
 """
 Example 1:
-text
     1
    / \
   2   3
@@ -99,7 +138,6 @@ Level 1: Nodes 2 and 3 → 3 (rightmost)
 Level 2: Nodes 5 and 4 → 4 (rightmost)
 
 Example 2:
-text
     1
    / \
   2   3
